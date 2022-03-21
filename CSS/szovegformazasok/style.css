@@ -91,8 +91,13 @@ a:hover {
 }
 
 #p19 {
+<<<<<<< HEAD
     background-color: rgb(184, 134, 11, 50%);
     color: rgb(100, 100, 100);
+=======
+    background-color: rgb(184, 134, 11);
+   text-decoration-color:#808080 ;
+>>>>>>> ffa40b2840033f42cff12bad8052ae3d0f7e22b8
     font-size: 150%;
     letter-spacing: 3px;
 }
