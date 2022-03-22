@@ -44,3 +44,76 @@ a:first-of-type {
 #div4 {
     margin: 25px 50px;
 }
+
+#div5 {
+    margin: 100px 50px 25px;
+}
+
+#div6 {
+    width: 80%;
+    margin: 10px 10%;
+}
+
+#div7 {
+    width: 80%;
+    margin: 10px calc((100%-400px)/2);
+}
+
+#div8 {
+    width: 80%;
+    margin:auto;
+}
+
+#div9 {
+    --maci: 400px;
+    width: var(--maci);
+    margin: 10px calc((100% - var(--maci))/2);
+}
+
+.utso~div {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+#div10 {
+    border-style: groove;
+    border-width: 5px;
+    border-color: hotpink;
+}
+
+#div11 {
+    border: 4px solid brown;
+    border-radius: 10px;
+}
+
+#div12 {
+    border-top: 1px dotted blue;
+    border-right: 2px solid red;
+    border-bottom: 5px dashed #f0f7a2;
+    border-left: none
+}
+
+#div13 {
+    box-shadow: green 10px 5px 3px;
+
+}
+
+#div14 {
+    width: calc(80% - 18px);
+    border: 10px solid blue;
+    box-sizing: content-box;
+}
+
+#div15 {
+    width: calc(80% + 42px);
+    border: 10px solid purple;
+    box-sizing: border-box;
+}
+
+#div25 {
+    background-color: chartreuse;
+    width: 100%;
+    border: 10px solid red;
+    box-sizing: border-box;
+}
