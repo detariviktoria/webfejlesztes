@@ -1,0 +1,22 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+
+img {
+    float: right;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    width: 20em;
+}
+
+#clearfix {
+    clear: right;
+}
+
+table, td, th {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+

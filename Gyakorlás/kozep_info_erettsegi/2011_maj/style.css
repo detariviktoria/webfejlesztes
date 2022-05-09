@@ -1,0 +1,38 @@
+body {
+    background-color: #E0E0E0;
+}
+
+a:hover, a:visited, a:active, a:link {
+    color: #666584 ;
+}
+
+.container {
+    width: 650px;
+    margin: auto;
+    background-color: #5C6B7B;
+}
+
+.container>.container {
+    margin: auto;
+    width: 600px;
+    background-color: white;
+}
+
+.col {
+    padding: 0px;
+}
+
+.menu {
+    background-color: #CDDBEB ;
+    height: 35px; /*magasság*/
+    text-align: center; /* középre igazítás vízszintesen */
+     align-items: center ; /* középre igazítás függölegesen */
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#forras {
+    font-size: 0.75em;
+}
